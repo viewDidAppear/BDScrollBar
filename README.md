@@ -4,7 +4,8 @@ An old-style scroll bar for modern iOS apps.
 ![bdscrollbar](https://user-images.githubusercontent.com/2734719/168588226-1f819880-10a0-4766-aa96-ed93737f42cf.png)
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/viewDidAppear/BDScrollView/master/LICENSE)
-[![Platform](https://img.shields.io/cocoapods/p/TOScrollBar.svg?style=flat)](http://cocoadocs.org/docsets/TOScrollBar)
+[![Platform](https://img.shields.io/cocoapods/p/BDScrollBar.svg?style=flat)](http://cocoadocs.org/docsets/BDScrollBar)
+[![CocoaPods](https://img.shields.io/cocoapods/dt/BDScrollBar.svg?maxAge=3600)](https://cocoapods.org/pods/BDScrollBar)
 
 ---
 
