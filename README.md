@@ -1,5 +1,67 @@
-# BDScrollView
+# BDScrollBar
 An old-style scroll bar for modern iOS apps.
 
-![bdscrollview](https://user-images.githubusercontent.com/2734719/168588226-1f819880-10a0-4766-aa96-ed93737f42cf.png)
+![bdscrollbar](https://user-images.githubusercontent.com/2734719/168588226-1f819880-10a0-4766-aa96-ed93737f42cf.png)
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/viewDidAppear/BDScrollView/master/LICENSE)
+[![Platform](https://img.shields.io/cocoapods/p/TOScrollBar.svg?style=flat)](http://cocoadocs.org/docsets/TOScrollBar)
+
+---
+
+`BDScrollBar` is a "Classic macOS" inspired UI component, which can be added to `UIScrollView` instances. Why? Because! That's why!
+It is as performant as possible, but serves no real purpose other than to be as unfashionable as possible. Have fun!
+
+* It also includes a modern style so it has a LITTLE BIT more usefulness.
+
+# Features
+
+* Finely scroll the entire content.
+* Hooks into `UIScrollView` via KVO and the Obj-C Runtime.
+* Animates like the standard scroll indicators - including bounce!
+  * Turn off the bounce for added vintage effect!
+* Tap the scroll bar track to jump down the content.
+* Supports the "Taptic" feedback engine.
+
+# Usage
+
+`BDScrollBar` adds itself directly to the scroll view. It will not appear above or below. 🙌
+
+```swift
+
+// Make
+let scrollBar = BDScrollBar()
+
+// Add
+tableView.bd_addScrollBar(scrollBar)
+
+// Adjust right edge
+tableView.separatorInset = scrollBar.adjustedSeparatorInsets(for: self.tableView.separatorInset)
+```
+
+The separator insets and the layout margins of the table view can be adjusted so nothing underlaps the scroll bar.
+
+# Installation & Compatibility
+
+`BDScrollBar` will work with iOS 15 and above. It supports Swift **only**.
+
+## Manual (aka Tried & True)
+
+Download the repo and add it into your Xcode project.
+
+## CocoaPods
+
+```ruby
+pod 'BDScrollBar'
+```
+
+# Why? WHY?
+
+No reason. Have fun!
+
+# Credits
+
+`BDScrollBar` was created by [Benjamin Deckys](https://github.com/viewDidAppear)
+
+# License
+
+`BDScrollBar` is available under the MIT license. Please see the [LICENSE](LICENSE) file for more information.
