@@ -1,7 +1,8 @@
 # BDScrollBar
 An old-style scroll bar for modern iOS apps.
 
-![bdscrollbar](https://user-images.githubusercontent.com/2734719/168588226-1f819880-10a0-4766-aa96-ed93737f42cf.png)
+![bdscrollbar](https://user-images.githubusercontent.com/2734719/168598673-09fe31b7-1fdf-4cff-a8a7-635a0d3abe44.png)
+
 
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/viewDidAppear/BDScrollView/master/LICENSE)
 [![Platform](https://img.shields.io/cocoapods/p/BDScrollBar.svg?style=flat)](http://cocoadocs.org/docsets/BDScrollBar)
