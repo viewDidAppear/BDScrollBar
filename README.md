@@ -8,6 +8,7 @@ An old-style scroll bar for modern iOS apps.
 [![Platform](https://img.shields.io/cocoapods/p/BDScrollBar.svg?style=for-the-badge)](http://cocoadocs.org/docsets/BDScrollBar)
 [![CocoaPods](https://img.shields.io/badge/pods-BDScrollBar-brightgreen?maxAge=3600&style=for-the-badge)](https://cocoapods.org/pods/BDScrollBar)
 [![Twitter](https://img.shields.io/badge/twitter-follow%20me-ff69b4?style=for-the-badge)](https://twitter.com/viewDidAppear)
+[![Blog](https://img.shields.io/badge/read-my%20blog-red?style=for-the-badge)](https://viewDidAppear.github.io)
 
 ---
 
